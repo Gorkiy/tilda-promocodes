@@ -1,0 +1,18 @@
+.pc {
+  padding: 20px;
+}
+
+.pc__codes {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid $light-color;
+}
+
+.pc__title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.pc__button {
+  margin-left: auto;
+}

@@ -1,0 +1,86 @@
+.toolbar__switch {
+  position: relative;
+  display: block;
+  min-width: 40px;
+  width: 40px;
+  height: 20px;
+}
+
+.toolbar__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+  &:checked + .toolbar__slider {
+    background-color: #2196F3;
+  }
+  
+  &:focus + .toolbar__slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  &:checked + .toolbar__slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+
+  &:disabled + .toolbar__slider {
+    pointer-events: none;
+    opacity: 0.3;
+  }
+}
+
+/* The slider */
+.toolbar__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+  &::before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+  }
+}
+
+.toolbar__button {
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  min-width: 24px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 17px;
+  opacity: 0.5;
+  cursor: pointer;
+
+  &--edit {
+    margin-left: 15px;
+    background-image: url("../../img/icon-edit.svg");
+  }
+
+  &--delete {
+    background-image: url("../../img/icon-delete.svg");
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1523,
+    "key": "geekbrainscourse",
+    "count": 100,
+    "plan": 21,
+    "duration": "2 month",
+    "date_created": 1577102364,
+    "date_expire": null,
+    "off": "n",
+    "countries": "UA"
+  },
+  {
+    "id": 1522,
+    "key": "syndicate",
+    "count": 200,
+    "plan": 1,
+    "duration": "1 month",
+    "date_created": 1577102364,
+    "date_expire": 1579669522,
+    "off": "y",
+    "countries": ""
+  },
+  {
+    "id": 1521,
+    "key": "newyear2019",
+    "count": 50,
+    "plan": 14,
+    "duration": "1 month",
+    "date_created": 1577102364,
+    "date_expire": 1577102364,
+    "off": "n",
+    "countries": ""
+  },
+  {
+    "id": 1520,
+    "key": "tildacare",
+    "count": 300,
+    "plan": 7,
+    "duration": "2 month",
+    "date_created": 1577102364,
+    "date_expire": null,
+    "off": "n",
+    "countries": "USA, UK"
+  },
+  {
+    "id": 1519,
+    "key": "letscelebrate",
+    "count": 0,
+    "plan": 12,
+    "duration": "1 month",
+    "date_created": 1577102364,
+    "date_expire": null,
+    "off": "n",
+    "countries": ""
+  }
+]

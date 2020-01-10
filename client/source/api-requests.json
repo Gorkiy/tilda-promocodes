@@ -1,0 +1,53 @@
+// Получение списка кодов
+// /api/
+// [POST]
+//
+// IN
+// {comm:'getcodes'}
+//
+// OUT
+[
+  {
+    "id": 152364,
+    "key": "geekbrainscourse",
+    "count": 100,
+    "plan": 21,
+    "duration": "1 month",
+    "date_created": 1577102364,
+    "date_expire": null,
+    "off": "y",
+    "countries": "UA"
+  }
+]
+// * * *
+// Удаление промокода
+// /api/
+// [POST]
+//
+// IN
+// {id, comm:'deletecode'}
+//
+// OUT
+// status
+//
+// * * *
+// Создание промокода
+// /api/
+// [POST]
+//
+// IN
+// {key, date_expire, duration, plan, comm: 'createcode'}
+//
+// OUT
+// { CODE JSON }
+//
+// * * *
+// Обновление промокода
+// /api/
+// [POST]
+//
+// IN
+// {id, key, date_expire, duration, plan, off, comm: 'updatecode'}
+//
+// OUT
+// { CODE JSON }

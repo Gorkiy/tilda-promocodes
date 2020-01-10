@@ -1,0 +1,75 @@
+.codes-list {
+  @include list-reset();
+}
+
+.codes-list__item {
+  padding: 15px 0 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid $light-color;
+
+  &--head {
+    color: $grey-color;
+  }
+
+  &--paused {
+    color: $grey-color;
+  }
+
+  &--deleted {
+    align-items: center;
+  }
+}
+
+.codes-list__part {
+  width: 10%;
+  margin-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &--key {
+    min-width: 20%;
+    flex-grow: 1;
+  }
+
+  &--countries {
+  }
+
+  &--duration {
+  }
+
+  &--id {
+    width: 6%;
+    min-width: 6%;
+  }
+
+  &--count {
+    width: 6%;
+  }
+
+  &--plan {
+    width: 6%;
+  }
+
+  &--toolbar {
+    min-width: 10%;
+    overflow: visible;
+  }
+}
+
+.codes-list__toolbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.codes-list__del-message {
+}
+
+.codes-list__restore-button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font: inherit;
+  cursor: pointer;
+}
